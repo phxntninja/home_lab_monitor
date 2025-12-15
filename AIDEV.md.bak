@@ -1,0 +1,22 @@
+# Homelab Monitoring Dashboard - Project Summary
+
+## Project Overview
+This project aims to create a comprehensive monitoring dashboard for my home lab environment. It will collect data from various devices and services, visualize it in a user-friendly interface, and provide alerts for critical events.
+
+## Requirements
+*   **Data Collection:** Collect metrics from servers, network devices, and virtual machines.
+*   **Visualization:** Display data in real-time dashboards with customizable views.
+*   **Alerting:** Configure alerts for critical events, such as high CPU usage or network outages.
+*   **Storage:** Store historical data for trend analysis and reporting.
+*   **Accessibility:** Access the dashboard from any device with a web browser.
+
+## Technology Stack
+*   **Data Collection:** Python, SNMP, Telegraf
+*   **Backend:** Python (Flask), InfluxDB
+*   **Frontend:** JavaScript (React), Grafana
+*   **Operating System:** Ubuntu Server
+
+## Phase 1: UDP SNMP Listener
+*   Implement a UDP SNMP listener in Python to collect data from network devices.
+*   Parse SNMP data and store it in InfluxDB.
+*   Create basic Grafana dashboards to visualize the collected data.

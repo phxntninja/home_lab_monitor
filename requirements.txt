@@ -1,0 +1,4 @@
+flask
+pysnmp
+requests
+pyyaml
